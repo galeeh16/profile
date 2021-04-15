@@ -54,6 +54,25 @@
       transform: rotateY(360deg);
     } 
 
+    .portfolio #portfolio-flters {
+      padding: 8px 15px;
+    }
+
+    .portfolio #portfolio-flters {
+      display: flex !important;
+      overflow: auto;
+      white-space: nowrap;
+    }
+
+    @media(max-width: 430px) {
+      .portfolio #portfolio-flters {
+        margin-left: -16px;
+        margin-right: -16px;
+        overflow-x: scroll;
+        border-radius: 0;
+      }
+    }
+
     @media(min-width: 1024px) {
       #main {
         padding: 2rem;
@@ -488,7 +507,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <-- <footer id="footer">
+  <footer id="footer">
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Galih Anggoro Jati</span></strong>
@@ -539,7 +558,7 @@
       setTimeout(function() {
         console.log('sda')
         $('#logee-first').trigger('click');
-      }, 100);
+      }, 500);
     });
 
 	</script>
