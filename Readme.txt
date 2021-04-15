@@ -1,1 +1,0 @@
-# Owner Galih Anggoro Jati
