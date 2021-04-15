@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Galih Anggoro Jati</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.1.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    .progress { font-size: 1rem; }
+    .skills .progress .skill { text-transform: none; }
+    .skills .progress-bar-wrap {
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .resume .resume-item::before {
+      background: #1f5297;
+      top: 4px;
+    }
+
+    #hero {
+      background-position: bottom;
+    }
+
+    #header .profile .social-links a:hover i{
+      transition: 0.3s ease;
+      transform: rotateY(360deg);
+    } 
+
+    @media(min-width: 1024px) {
+      #main {
+        padding: 2rem;
+      }
+      .resume .resume-item h4 {
+        line-height: 26px;
+      }
+      .progress {
+        margin-bottom: 1.2rem;
+      }
+      section.skills,
+      section.portfolio {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 1.2rem; 
+        padding-right: 1.2rem;
+      }
+      .portfolio #portfolio-flters {
+        margin: 1.5rem auto 4rem auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="./assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Galih Anggoro Jati</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/galihanggoro_" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/galihanggorojati" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/galihanggorojati/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/galih-anggoro-jati/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-lightning-charge"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-patch-check"></i> <span>Work Experiences</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Galih Anggoro Jati</h1>
+      <p>I'm <span class="typed" data-typed-items="Programmer, Freelance Programmer, Photography Enthusiast"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Hi! my name is <b style="font-weight: 700">Galih Anggoro Jati</b>. I am <span id="age"></span> years old and I am Informatics Engineer who loves technology especially programming. I am friendly, responsive, interest for learn about new things, and i like challenges. My hobby is playing tennis table, guitar, badminton and games.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" width="300px">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3 class="mb-4">Software Engineer</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>16 Jan 1996</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://galeeh16.github.io/profile" target="_blank">https://galeeh16.github.io/profile</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Jakarta, Indonesia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="age2">30</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>S1 Informatics Engineering</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span style="color: #5bb479">Available</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">PHP</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Laravel</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Codeigniter</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">MySQL</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">JavaScript</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">ReactJS</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">VueJS</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">jQuery</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PostgreSQL</span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Work Experiences</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>KOPNUSPOS</h4>
+              <p><em>Programmer at <a href="https://www.kopnus.com/" target="_blank">Koperasi Nusantara</a> (Nov 2019 - Present)</em></p>
+              <ul>
+                <li>Research, design and develop software system who client needs.</li>
+                <li>Develop existing program or creating program by analyzing and understanding source code for modification.</li>
+                <li>Maintenance system.</li>
+                <li>Creating API with Laravel.</li>
+                <li>Creating CBS-WEB with Laravel.</li>
+                <li>Creating MIS with Laravel.</li>
+                <li>Creating KDIGI-BO-WEB with Laravel.</li>
+                <li>Monitoring System with graphic output for user (Build with Laravel).</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Inti Artistika Solusitama</h4>
+              <p><em>Junior Programmer at <a href="http://www.inarts.co.id/" target="_blank">PT. Inti Artistika Solusitama</a> (Oct 2018 - Oct 2019)</em></p>
+              <ul>
+                <li>Reseacrh, design and develop software system who client needs.</li>
+                <li>Develop existing program or creating program by analyzing and understanding source code for modification.</li>
+                <li>Maintenance system.</li>
+                <li>Creating <a href="https://youb.id">youb.id</a> with PHP (Webid)</li>
+                <li>Creating API with Django.</li>
+                <li>Creating API with Laravel.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Freelance Programmer</h4>
+              <p><em>Freelance Web Developer (2017 - Present)</em></p>
+              <ul>
+                <li>Creating <a href="https://logee.id" target="_blank">Logee</a> (a subsidiary of Telkom) with Laravel.</li>
+                <li>Creating app for web application with CodeIgniter, Laravel, HTML, CSS, jQuery, ReactJS and other frameworks.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Photographer</h4>
+              <p><em>Freelance Photographer (2016 - 2017)</em></p>
+              <ul>
+                <li>Photographing events and editing photos.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Student Internship at PT. Buana Alam Tirta (Gembira Loka Zoo)</h4>
+              <p><em>Working For My Undergraduate's Thesis (Jul 2017 - Aug 2017)</em></p>
+              <ul>
+                <li>Get data disease, evidence and rules from expert for research.</li>
+				        <li>Creating Web Based Expert System Diagnose Disease of Snakes Using The Dempster-Shafer Method for my Thesis.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Work Practice at Sekolah Tinggi Pertanahan Nasional (STPN)</h4>
+              <p><em>Work Practice (Oct 2016 - Nov 2016)</em></p>
+              <ul>
+                <li>Creating web based information system for student and stakeholders in STPN. The application build using PHP,  MySQL, HTML and CSS.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Universitas Pembangunan Nasional "Veteran" Yogyakarta (UPNVYK)</h4>
+              <p><em>Studying For My Undergraduate's Thesis and get my diploma (Sep 2013 - Jul 2018)</em></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>This is the project that i made so far.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-logee" class="filter-active" id="logee-first">Logee</li>
+              <li data-filter=".filter-youbid" id="logee-youbid">Youbid</li>
+              <li data-filter=".filter-cbs-web">CBS-BO WEB</li>
+              <li data-filter=".filter-cbs-monitoring">CBS MONITORING</li>
+              <li data-filter=".filter-trisakti">TRISAKTI CONNECT</li>
+              <li data-filter=".filter-kpu">KPU CIANJUR</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logee">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/logee/logee1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/logee/logee1.png" data-gallery="logee" class="portfolio-lightbox" title="Logee 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logee">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/logee/logee2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/logee/logee2.png" data-gallery="logee" class="portfolio-lightbox" title="Logee 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logee">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/logee/logee3.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/logee/logee3.png" data-gallery="logee" class="portfolio-lightbox" title="Logee 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-youbid">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/youbid/youbid1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/youbid/youbid1.png" data-gallery="youbid" class="portfolio-lightbox" title="CBS WEB 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-youbid">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/youbid/youbid2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/youbid/youbid2.png" data-gallery="youbid" class="portfolio-lightbox" title="CBS WEB 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-youbid">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/youbid/youbid3.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/youbid/youbid3.png" data-gallery="youbid" class="portfolio-lightbox" title="CBS WEB 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cbs-web">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/cbs-web/cbs-web1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/cbs-web/cbs-web1.png" data-gallery="cbs-web" class="portfolio-lightbox" title="CBS WEB 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cbs-web">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/portfolio/cbs-web/cbs-web2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/cbs-web/cbs-web2.png" data-gallery="cbs-web" class="portfolio-lightbox" title="CBS WEB 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cbs-monitoring">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cbs-monitoring/cbs-monitoring1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/cbs-monitoring/cbs-monitoring1.png" data-gallery="cbs-monitoring" class="portfolio-lightbox" title="CBS MONITORING 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cbs-monitoring">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cbs-monitoring/cbs-monitoring2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/cbs-monitoring/cbs-monitoring2.png" data-gallery="cbs-monitoring" class="portfolio-lightbox" title="CBS MONITORING 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-kpu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/kpu/kpu1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/kpu/kpu1.png" data-gallery="kpu" class="portfolio-lightbox" title="KPU 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-kpu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/kpu/kpu2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/kpu/kpu2.png" data-gallery="kpu" class="portfolio-lightbox" title="KPU 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-trisakti">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/trisakti/trisakti.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/trisakti/trisakti.png" data-gallery="trisakti" class="portfolio-lightbox" title="TRISAKTI 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-trisakti">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/trisakti/trisakti2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/trisakti/trisakti2.png" data-gallery="trisakti" class="portfolio-lightbox" title="TRISAKTI 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <-- <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Galih Anggoro Jati</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <!-- <script src="assets/vendor/purecounter/purecounter.js"></script> -->
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- jQuery -->
+  <!-- <script src="./assets/vendor/jquery/jquery-3.6.0.slim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+
+  
+
+  <script type="text/javascript">
+    function getAge(dateString) {
+      var today = new Date();
+      var birthDate = new Date(dateString);
+      var age = today.getFullYear() - birthDate.getFullYear();
+      var m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+      }
+      return age;
+    }
+
+    let myAge = getAge('1996/01/16');
+    document.getElementById('age').innerHTML = myAge;
+    document.getElementById('age2').innerHTML = myAge;
+
+    // Document ready versi vanilla js 
+    $(document).ready(function() {
+      setTimeout(function() {
+        console.log('sda')
+        $('#logee-first').trigger('click');
+      }, 100);
+    });
+
+	</script>
+
+</body>
+
+</html>
