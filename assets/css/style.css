@@ -327,7 +327,7 @@ section {
   -webkit-text-fill-color: transparent;
 }
 .typed {
-  background: linear-gradient(to right, #bf54e3, #a94d96, #ea427a, #b542ea);
+  background: linear-gradient(to right, #bf54e3, #d43bb5, #ea427a, #b542ea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* text-shadow: 1px 1px #fff; */
