@@ -289,6 +289,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
+  #hero:before {
+    height: 100vh;
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
@@ -327,7 +338,7 @@ section {
   -webkit-text-fill-color: transparent;
 }
 .typed {
-  background: linear-gradient(to right, #ed51e3, #cf3fb2, #d3537e, #b542ea);
+  background: linear-gradient(to right, #ff65f5, #d454ff, #e4fc6d, #a151fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* text-shadow: 1px 1px #fff; */
@@ -1069,6 +1080,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  #hero {
+    height: 100vh !important;
+  }
   .breadcrumbs .d-flex {
     display: block !important;
   }
