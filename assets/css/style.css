@@ -1092,8 +1092,10 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-  .resume-item ul li {
+  .resume-item ul > li,
+  .resume-item > p {
     font-size: 14px !important;
+    line-height: 1.5;
   }
 }
 
