@@ -1092,6 +1092,9 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  .resume-item ul li {
+    font-size: 14px !important;
+  }
 }
 
 /*--------------------------------------------------------------
