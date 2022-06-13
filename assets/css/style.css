@@ -338,7 +338,7 @@ section {
   -webkit-text-fill-color: transparent;
 }
 .typed {
-  background: linear-gradient(to right, #ff65f5, #d454ff, #e4fc6d, #a151fc);
+  background: linear-gradient(to right, #65ff6d, #54ff98, #e4fc6d, #fcba51);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* text-shadow: 1px 1px #fff; */
